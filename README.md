@@ -1,28 +1,87 @@
-<h1 align="center">Hi 👋, I'm Rishi Dixit</h1>
-<h3 align="center">A passionate Ai/Ml student from India</h3>
+# 👋 Hi, I'm Rishi Dixit
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rishidixit-7404&label=Profile%20views&color=0e75b6&style=flat" alt="rishidixit-7404" /> </p>
+🚀 AI/ML Engineering Student | 💹 Fintech & Time Series Enthusiast | 🤖 Prompt Engineer  
+📍 Jaipur, India | 🎓 B.Tech CSE (AI/ML), Manipal University Jaipur
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rishidixit-7404" alt="rishidixit-7404" /></a> </p>
+---
 
-- 🌱 I’m currently learning **Machine Learning Using Python**
+## 🧠 Who Am I?
 
-- 📫 How to reach me **rishidixit.7404@icloud.com**
+I’m a Computer Science undergrad focused on building real-world machine learning systems — especially in **finance, forecasting, and automation**. My interests lie at the crossroads of:
 
-- ⚡ Fun fact **I love chess♞**
+- Smart financial tools
+- Fast, reliable ML models
+- Clean code that scales
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/rishi-dixit-461035279/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rishi dixit" height="30" width="40" /></a>
-<a href="https://instagram.com/_rishidixit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_rishidixit" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/rishidixit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="rishidixit" height="30" width="40" /></a>
-</p>
+I'm currently exploring how AI can drive decision-making — whether it's predicting stock moves, building chat-based advisors, or making sense of financial sentiment.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rishidixit-7404&show_icons=true&locale=en&layout=compact" alt="rishidixit-7404" /></p>
+## 🛠️ Tech Stack
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rishidixit-7404&show_icons=true&locale=en" alt="rishidixit-7404" /></p>
+- **Languages:** Python, SQL  
+- **ML Libraries:** PyTorch, TensorFlow, Scikit-learn, OpenCV  
+- **Data & APIs:** Pandas, NumPy, Yahoo Finance API, Alpaca API  
+- **Dev Tools:** Streamlit, Git, Docker, REST APIs  
+- **Extras:** LangChain, FinBERT, Prompt Engineering
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rishidixit-7404&" alt="rishidixit-7404" /></p>
+---
+
+## 📂 Projects I'm Proud Of
+
+### 🧠 Algorithmic Trading System
+- Real-time financial sentiment analyzer using FinBERT  
+- CUDA-accelerated, <100ms latency  
+- 500+ requests/minute handling  
+- Performance tracked with QuantStats, low correlation to SPY (-0.01)
+
+### 📈 Time Series Forecasting
+- LSTM model for GOOG price prediction  
+- $2.34 RMSE | 85% directional accuracy  
+- Feature-rich input set with RSI, Bollinger Bands, and after-hours data
+
+### ✅ Loan Approval Predictor
+- Scikit-learn model trained on applicant data  
+- 86.17% accuracy  
+- Discovered credit history & marital status as strong approval indicators
+
+---
+
+## 📜 Certifications
+
+- Cisco Networking (Routing, Switching & Security)  
+- Oracle SQL & Database Foundations  
+- HackerRank Problem Solving (2024)
+
+---
+
+## 🧭 What I'm Exploring Now
+
+- LLM-based career tools using LangChain  
+- Financial market prediction using transformer-based models  
+- Visualizing risk & volatility in automated trading systems  
+- Better prompts = smarter bots
+
+---
+
+## 💬 Ask Me About
+
+- How I made an AI career advisor for Buildspace  
+- Why volatility-scaling works in trading  
+- What features matter most in time series forecasting  
+- How I used prompt engineering to improve chatbot relevance by 35%
+
+---
+
+## 🤝 Let's Connect
+
+- [LinkedIn](https://www.linkedin.com/in/rishi-dixit-461035279/)  
+- 📬 Email: rishidixit.7404@icloud.com  
+- GitHub: You’re already here :)
+
+---
+
+> *"Code is poetry, but good ML is jazz."*  
+> — Rishi Dixit (probably while tuning hyperparameters at 2AM)
+
+---
