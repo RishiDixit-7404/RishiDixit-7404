@@ -1,87 +1,101 @@
 # 👋 Hi, I'm Rishi Dixit
 
-🚀 AI/ML Engineering Student | 💹 Fintech & Time Series Enthusiast | 🤖 Prompt Engineer  
-📍 Jaipur, India | 🎓 B.Tech CSE (AI/ML), Manipal University Jaipur
+🤖 Agentic AI · ⚙️ Backend Development · ☁️ Cloud Engineering (Azure)
+📍 Jaipur, India | 🎓 B.Tech (Hons.) CSE — AI/ML, Manipal University Jaipur
+💼 Software Engineering Intern @ Grant Thornton Bharat
 
 ---
 
 ## 🧠 Who Am I?
 
-I’m a Computer Science undergrad focused on building real-world machine learning systems — especially in **finance, forecasting, and automation**. My interests lie at the crossroads of:
+I'm a final-year CS (AI/ML) student building **production-oriented AI systems** — tool-calling agents, document-processing pipelines, and backend services on Microsoft Azure.
 
-- Smart financial tools
-- Fast, reliable ML models
-- Clean code that scales
+These days my work lives at the intersection of:
 
-I'm currently exploring how AI can drive decision-making — whether it's predicting stock moves, building chat-based advisors, or making sense of financial sentiment.
+- **Agentic AI** — agents that actually *do* things via API tools, not just chat
+- **Backend engineering** — clean, secure REST APIs with FastAPI
+- **Cloud** — shipping and running it all on Azure
+
+I like turning messy, manual workflows into reliable automated ones — and I care about the boring parts (auth, fallbacks, observability) that make AI tools survive contact with real users.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Languages:** Python, SQL  
-- **ML Libraries:** PyTorch, TensorFlow, Scikit-learn, OpenCV  
-- **Data & APIs:** Pandas, NumPy, Yahoo Finance API, Alpaca API  
-- **Dev Tools:** Streamlit, Git, Docker, REST APIs  
-- **Extras:** LangChain, FinBERT, Prompt Engineering
+- **Languages:** Python, Java, SQL
+- **Agentic AI:** Azure AI Foundry, Tool Calling, MCP Servers, Prompt Engineering, OCR
+- **Backend:** FastAPI, REST APIs, JWT / OAuth2, SQLAlchemy, Alembic
+- **Cloud & DevOps:** Azure App Service, Azure Functions, Azure Storage, Entra ID, Azure DevOps, GitHub Actions, App Insights, CI/CD
+- **Databases & Tools:** PostgreSQL, SQLite, Git, VS Code, Sourcetree
+- **Also familiar with:** PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, LangChain
 
 ---
 
 ## 📂 Projects I'm Proud Of
 
-### 🧠 Algorithmic Trading System
-- Real-time financial sentiment analyzer using FinBERT  
-- CUDA-accelerated, <100ms latency  
-- 500+ requests/minute handling  
-- Performance tracked with QuantStats, low correlation to SPY (-0.01)
+### 🤖 BackCheck AI — AI-Assisted Background-Check Automation
+> *Azure AI Foundry · Python · PyMuPDF · Playwright · BeautifulSoup · OCR*
+- AI tool that streamlines review of public links and documents for consultancy and client-onboarding workflows
+- **750+ users, ~1,000 requests/month** since launch
+- Multi-stage extraction fallback (Playwright → BeautifulSoup → OCR) for sources with varying access constraints
+- Tool calling to summarize evidence, surface risk signals, and auto-generate Excel risk summaries
 
-### 📈 Time Series Forecasting
-- LSTM model for GOOG price prediction  
-- $2.34 RMSE | 85% directional accuracy  
-- Feature-rich input set with RSI, Bollinger Bands, and after-hours data
+### 💬 LinkReta — Natural-Language CRM & Helpdesk Assistant
+> *Azure AI Foundry · FastAPI · Tool Calling · Python*
+- Conversational assistant that resolves process queries and runs support workflows from a chat interface
+- Backend API tools wired to agents — turning natural-language intent into ticket creation, guidance retrieval, and document uploads
 
-### ✅ Loan Approval Predictor
-- Scikit-learn model trained on applicant data  
-- 86.17% accuracy  
-- Discovered credit history & marital status as strong approval indicators
+### 🔐 DPDP PrivacyOps — Privacy Scanner & Compliance Evidence Platform
+> *FastAPI · SQLAlchemy · Alembic · Python*
+- PrivacyOps MVP to discover PII across databases, logs, tickets, exports, and AI prompt workflows
+- Metadata-first discovery that flags risky fields, scores confidence, and recommends remediation — no raw data upload needed
+- Modules for scan findings, DSR tracking, consent logging, and DPDP compliance evidence
+
+<details>
+<summary>📈 Earlier ML / fintech projects</summary>
+
+- **Algorithmic Trading System** — FinBERT sentiment analyzer, CUDA-accelerated (<100ms latency), low correlation to SPY
+- **Time Series Forecasting** — LSTM for GOOG price prediction with RSI / Bollinger Band features
+- **Loan Approval Predictor** — Scikit-learn classifier (~86% accuracy) surfacing credit history as a key signal
+
+</details>
 
 ---
 
 ## 📜 Certifications
 
-- Cisco Networking (Routing, Switching & Security)  
-- Oracle SQL & Database Foundations  
-- HackerRank Problem Solving (2024)
+- Microsoft Certified: **Azure AI Engineer / Developer Associate** *(in progress)*
+- Microsoft Certified: **Azure Fundamentals (AZ-900)**
+- Microsoft: **Artificial Intelligence on Microsoft Azure**
+- Oracle Academy: **Database Programming with SQL**
 
 ---
 
 ## 🧭 What I'm Exploring Now
 
-- LLM-based career tools using LangChain  
-- Financial market prediction using transformer-based models  
-- Visualizing risk & volatility in automated trading systems  
-- Better prompts = smarter bots
+- Multi-agent and tool-calling patterns on Azure AI Foundry
+- MCP servers for connecting agents to real backend systems
+- Making AI tools production-safe: evals, guardrails, and observability
+- Better prompts = more reliable agents
 
 ---
 
 ## 💬 Ask Me About
 
-- How I made an AI career advisor for Buildspace  
-- Why volatility-scaling works in trading  
-- What features matter most in time series forecasting  
-- How I used prompt engineering to improve chatbot relevance by 35%
+- How I cut manual analyst effort with an agentic background-check tool
+- Designing resilient extraction pipelines that don't break on weird sources
+- Wiring backend APIs into LLM agents as callable tools
+- Running AI workloads on Azure without things falling over
 
 ---
 
 ## 🤝 Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/rishi-dixit-461035279/)  
-- 📬 Email: rishidixit.7404@icloud.com  
-- GitHub: You’re already here :)
+- [LinkedIn](https://www.linkedin.com/in/rishi-dixit-461035279/)
+- 📬 rishidixit.7404@icloud.com
+- GitHub: you're already here :)
 
 ---
 
-> *"Code is poetry, but good ML is jazz."*  
-> — Rishi Dixit (probably while tuning hyperparameters at 2AM)
-
----
+> *"Code is poetry, but good ML is jazz."*
+> — Rishi Dixit (probably while debugging an agent at 2AM)
