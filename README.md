@@ -33,23 +33,31 @@ I like turning messy, manual workflows into reliable automated ones — and I ca
 
 ## 📂 Projects I'm Proud Of
 
-### 🤖 BackCheck AI — AI-Assisted Background-Check Automation
-> *Azure AI Foundry · Python · PyMuPDF · Playwright · BeautifulSoup · OCR*
-- AI tool that streamlines review of public links and documents for consultancy and client-onboarding workflows
-- **750+ users, ~1,000 requests/month** since launch
-- Multi-stage extraction fallback (Playwright → BeautifulSoup → OCR) for sources with varying access constraints
-- Tool calling to summarize evidence, surface risk signals, and auto-generate Excel risk summaries
+### [🤖 VeritusAI — Multi-Agent Company Research & Report Automation](https://github.com/RishiDixit-7404/-VeritusAI)
+> *FastAPI · PyMuPDF · SQLite · ChromaDB · Python*
+- Multi-agent workflow that turns a company name into a branded Microsoft Word research report by discovering, validating, and ingesting annual reports.
+- Fully local, zero-key architecture using SQLite for queuing, ChromaDB for vectors, local sentence-transformers, and a mock LLM by default (with open LLM support).
+- Built an event-driven worker system featuring process-wide rate limiting, concurrent section agents, and fallback CSV data injection.
+- Engineered a robust SSRF guard with per-hop redirect validation to securely fetch external PDFs and data sources.
+### [💡 Lumina — Local-First Multi-Agent RAG Platform](https://github.com/RishiDixit-7404/Lumina)
+> *Ollama · Qdrant · FastAPI · React (Vite) · Python*
+- Hand-rolled 4-agent pipeline (Planner → Retriever → Analyst → Critic) that answers questions over code and PDFs with hybrid retrieval and per-claim citations.
+- Built a terminal-style React trace UI featuring an execution graph, latency waterfall, and token-by-token streaming over WebSockets.
+- Fully local execution (Ollama, Qdrant, SQLite) with incremental, deterministic AST-aware reindexing via xxhash64 diffing.
+- Developed runtime model management to seamlessly swap or pull Ollama chat and embedding models through the UI without restarting.
+### [🛡️ Vettra — Automated Compliance Screening](https://github.com/RishiDixit-7404/Vettra)
+> *FastAPI · Playwright · BeautifulSoup · SQLite Queue · Python*
+- Tool for analysts to upload ZIPs of background-check PDFs, triggering an async worker that scrapes linked sources and uses an LLM to classify adverse risk.
+- Developed a multi-stage scraping fallback chain (Playwright → BeautifulSoup → ScraperAPI) protected by strict SSRF guards.
+- Features stateful diffing for reprocessed jobs, generating Excel workbooks that highlight risk additions and removals.
+- Implemented robust queue mechanics including job visibility timeouts, automatic retries, and dead-letter routing using SQLite.
 
-### 💬 LinkReta — Natural-Language CRM & Helpdesk Assistant
-> *Azure AI Foundry · FastAPI · Tool Calling · Python*
-- Conversational assistant that resolves process queries and runs support workflows from a chat interface
-- Backend API tools wired to agents — turning natural-language intent into ticket creation, guidance retrieval, and document uploads
-
-### 🔐 DPDP PrivacyOps — Privacy Scanner & Compliance Evidence Platform
+### [🔐 DPDP PrivacyOps — Privacy Scanner & Compliance Evidence Platform](https://github.com/RishiDixit-7404/dpdp-privacyops)
 > *FastAPI · SQLAlchemy · Alembic · Python*
-- PrivacyOps MVP to discover PII across databases, logs, tickets, exports, and AI prompt workflows
-- Metadata-first discovery that flags risky fields, scores confidence, and recommends remediation — no raw data upload needed
-- Modules for scan findings, DSR tracking, consent logging, and DPDP compliance evidence
+- PrivacyOps MVP to discover PII across databases, logs, tickets, exports, and AI prompt workflows.
+- Metadata-first discovery that flags risky fields, scores confidence, and recommends remediation — no raw data upload needed.
+- Modules for scan findings, DSR tracking, consent logging, and DPDP compliance evidence.
+- Developed a local Next.js dashboard to visualize findings, trace compliance gaps, and aggregate technical readiness evidence.
 
 <details>
 <summary>📈 Earlier ML / fintech projects</summary>
@@ -97,5 +105,5 @@ I like turning messy, manual workflows into reliable automated ones — and I ca
 
 ---
 
-> *"Code is poetry, but good ML is jazz."*
+> *"Production is just a prototype that survived enough"*
 > — Rishi Dixit (probably while debugging an agent at 2AM)
